@@ -1,0 +1,348 @@
+{{> header}}
+
+	<section id="bracket">
+	<div class="container">
+	<div class="split split-one">
+		<div class="round round-one current">
+			<div class="round-details">Round 1<br/><span id="round1date1" class="date">round1date</span></div>
+			<h1 id="region1" style="text-align: center;">{{regions.region1}}</h1>
+			<ul class="matchup">
+				<li id="reg1t1" class="team team-top" onClick="b('reg1t1', 'reg1g1w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t1.seed}} {{teams.reg1_t1.name}}</li>
+				<li id="reg1t16" class="team team-bottom" onClick="b('reg1t16', 'reg1g1w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t16.seed}} {{teams.reg1_t16.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg1t8" class="team team-top" onClick="b('reg1t8', 'reg1g2w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t8.seed}} {{teams.reg1_t8.name}}</li>
+				<li id="reg1t9" class="team team-bottom" onClick="b('reg1t9', 'reg1g2w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t9.seed}} {{teams.reg1_t9.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg1t5" class="team team-top" onClick="b('reg1t5', 'reg1g3w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t5.seed}} {{teams.reg1_t5.name}}</li>
+				<li id="reg1t12" class="team team-bottom" onClick="b('reg1t12', 'reg1g3w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t12.seed}} {{teams.reg1_t12.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg1t4" class="team team-top" onClick="b('reg1t4', 'reg1g4w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t4.seed}} {{teams.reg1_t4.name}}</li>
+				<li id="reg1t13" class="team team-bottom" onClick="b('reg1t13', 'reg1g4w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t13.seed}} {{teams.reg1_t13.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg1t11" class="team team-bottom" onClick="b('reg1t11', 'reg1g5w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t11.seed}} {{teams.reg1_t11.name}}</li>
+				<li id="reg1t6" class="team team-top" onClick="b('reg1t6', 'reg1g5w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t6.seed}} {{teams.reg1_t6.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg1t14" class="team team-bottom" onClick="b('reg1t14', 'reg1g6w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t14.seed}} {{teams.reg1_t14.name}}</li>
+				<li id="reg1t3" class="team team-top" onClick="b('reg1t3', 'reg1g6w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t3.seed}} {{teams.reg1_t3.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg1t10" class="team team-bottom" onClick="b('reg1t10', 'reg1g7w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t10.seed}} {{teams.reg1_t10.name}}</li>
+				<li id="reg1t7" class="team team-top" onClick="b('reg1t7', 'reg1g7w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t7.seed}} {{teams.reg1_t7.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg1t15" class="team team-bottom" onClick="b('reg1t15', 'reg1g8w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t15.seed}} {{teams.reg1_t15.name}}</li>
+				<li id="reg1t2" class="team team-top" onClick="b('reg1t2', 'reg1g8w');" style="cursor: pointer; cursor: hand;">{{teams.reg1_t2.seed}} {{teams.reg1_t2.name}}</li>
+			</ul>
+			<hr>
+			<hr>
+			<h1 id="region3" style="text-align: center;">{{regions.region3}}</h1>
+			<ul class="matchup">
+				<li id="reg3t1" class="team team-top" onClick="b('reg3t1', 'reg3g1w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t1.seed}} {{teams.reg3_t1.name}}</li>
+				<li id="reg3t16" class="team team-bottom" onClick="b('reg3t16', 'reg3g1w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t16.seed}} {{teams.reg3_t16.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg3t8" class="team team-top" onClick="b('reg3t8', 'reg3g2w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t8.seed}} {{teams.reg3_t8.name}}</li>
+				<li id="reg3t9" class="team team-bottom" onClick="b('reg3t9', 'reg3g2w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t9.seed}} {{teams.reg3_t9.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg3t5" class="team team-top" onClick="b('reg3t5', 'reg3g3w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t5.seed}} {{teams.reg3_t5.name}}</li>
+				<li id="reg3t12" class="team team-bottom" onClick="b('reg3t12', 'reg3g3w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t12.seed}} {{teams.reg3_t12.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg3t4" class="team team-top" onClick="b('reg3t4', 'reg3g4w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t4.seed}} {{teams.reg3_t4.name}}</li>
+				<li id="reg3t13" class="team team-bottom" onClick="b('reg3t13', 'reg3g4w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t13.seed}} {{teams.reg3_t13.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg3t11" class="team team-bottom" onClick="b('reg3t11', 'reg3g5w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t11.seed}} {{teams.reg3_t11.name}}</li>
+				<li id="reg3t6" class="team team-top" onClick="b('reg3t6', 'reg3g5w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t6.seed}} {{teams.reg3_t6.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg3t14" class="team team-bottom" onClick="b('reg3t14', 'reg3g6w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t14.seed}} {{teams.reg3_t14.name}}</li>
+				<li id="reg3t3" class="team team-top" onClick="b('reg3t3', 'reg3g6w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t3.seed}} {{teams.reg3_t3.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg3t10" class="team team-bottom" onClick="b('reg3t10', 'reg3g7w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t10.seed}} {{teams.reg3_t10.name}}</li>
+				<li id="reg3t7" class="team team-top" onClick="b('reg3t7', 'reg3g7w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t7.seed}} {{teams.reg3_t7.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg3t15" class="team team-bottom" onClick="b('reg3t15', 'reg3g8w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t15.seed}} {{teams.reg3_t15.name}}</li>
+				<li id="reg3t2" class="team team-top" onClick="b('reg3t2', 'reg3g8w');" style="cursor: pointer; cursor: hand;">{{teams.reg3_t2.seed}} {{teams.reg3_t2.name}}</li>
+			</ul>
+		</div>	<!-- END ROUND ONE -->
+
+		<div class="round round-two">
+			<div class="round-details">Round 2<br/><span id="round2date1" class="date">round2date</span></div>
+			<ul class="matchup" style="padding-top: 105px;">
+				<li id="reg1g1w" class="team team-top" onClick="b('reg1g1w', 'reg1g9w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg1g2w" class="team team-bottom" onClick="b('reg1g2w', 'reg1g9w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg1g3w" class="team team-top" onClick="b('reg1g3w', 'reg1g10w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg1g4w" class="team team-bottom" onClick="b('reg1g4w', 'reg1g10w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg1g5w" class="team team-top" onClick="b('reg1g5w', 'reg1g11w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg1g6w" class="team team-bottom" onClick="b('reg1g6w', 'reg1g11w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg1g7w" class="team team-top" onClick="b('reg1g7w', 'reg1g12w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg1g8w" class="team team-bottom" onClick="b('reg1g8w', 'reg1g12w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<hr>
+			<hr>
+			<ul class="matchup" style="padding-top: 105px;">
+				<li id="reg3g1w" class="team team-top" onClick="b('reg3g1w', 'reg3g9w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg3g2w" class="team team-bottom" onClick="b('reg3g2w', 'reg3g9w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg3g3w" class="team team-top" onClick="b('reg3g3w', 'reg3g10w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg3g4w" class="team team-bottom" onClick="b('reg3g4w', 'reg3g10w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg3g5w" class="team team-top" onClick="b('reg3g5w', 'reg3g11w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg3g6w" class="team team-bottom" onClick="b('reg3g6w', 'reg3g11w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg3g7w" class="team team-top" onClick="b('reg3g7w', 'reg3g12w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg3g8w" class="team team-bottom" onClick="b('reg3g8w', 'reg3g12w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+		</div>	<!-- END ROUND TWO -->
+
+		<div class="round round-three">
+			<div class="round-details">Round 3<br/><span id="round3date1" class="date">round3date</span></div>
+			<ul class="matchup" style="padding-top: 185px;">
+				<li id="reg1g9w" class="team team-top" onClick="b('reg1g9w', 'reg1g13w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg1g10w" class="team team-bottom" onClick="b('reg1g10w', 'reg1g13w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg1g11w" class="team team-top" onClick="b('reg1g11w', 'reg1g14w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg1g12w" class="team team-bottom" onClick="b('reg1g12w', 'reg1g14w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<hr>
+			<hr>
+			<ul class="matchup" style="padding-top: 185px;">
+				<li id="reg3g9w" class="team team-top" onClick="b('reg3g9w', 'reg3g13w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg3g10w" class="team team-bottom" onClick="b('reg3g10w', 'reg3g13w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg3g11w" class="team team-top" onClick="b('reg3g11w', 'reg3g14w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg3g12w" class="team team-bottom" onClick="b('reg3g12w', 'reg3g14w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+		</div>	<!-- END ROUND THREE -->
+
+		<div class="round round-four">
+			<div class="round-details">Round 4<br/><span id="round4date1" class="date">round4date</span></div>
+			<ul class="matchup" style="padding-top: 345px;">
+				<li id="reg1g13w" class="team team-top" onClick="b('reg1g13w', 'reg1winner');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg1g14w" class="team team-bottom" onClick="b('reg1g14w', 'reg1winner');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<hr>
+			<hr>
+			<ul class="matchup" style="padding-top: 505px;">
+				<li id="reg3g13w" class="team team-top" onClick="b('reg3g13w', 'reg3winner');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg3g14w" class="team team-bottom" onClick="b('reg3g14w', 'reg3winner');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+		</div>	<!-- END ROUND FOUR -->
+	</div>
+
+
+<div class="champion">
+		<div class="semis-l">
+			<div class="round-details">region1 & region2 semifinals <br/><span id="semidate1" class="date">semidate</span></div>
+			<ul class ="matchup championship">
+				<li id="reg1winner" class="team team-top" onClick="b('reg1winner', 'champ12');" style="cursor: pointer; cursor: hand;">{{regions.region1}} Winner</li>
+				<li id="reg2winner" class="team team-bottom" onClick="b('reg2winner', 'champ12');" style="cursor: pointer; cursor: hand;">{{regions.region2}} Winner</li>
+			</ul>
+		</div>
+		<div class="final">
+			<i class="fa fa-trophy"></i>
+			<div class="round-details">championship <br/><span id="champdate" class="date">champdate</span></div>
+			<ul class ="matchup championship">
+				<li id="champ12" class="team team-top"></li>
+				<li id="champ34" class="team team-bottom"></li>
+			</ul>
+		</div>
+		<div class="semis-r">
+			<div class="round-details">region3 & region4 semifinals <br/><span id="semidate2" class="date">semidate</span></div>
+			<ul class ="matchup championship">
+				<li id="reg3winner" class="team team-top" onClick="b('reg3winner', 'champ34');" style="cursor: pointer; cursor: hand;">{{regions.region3}} Winner</li>
+				<li id="reg4winner" class="team team-bottom" onClick="b('reg4winner', 'champ34');" style="cursor: pointer; cursor: hand;">{{regions.region4}} Winner</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="split split-two">
+
+
+		<div class="round round-four">
+			<div class="round-details">Round 4<br/><span id="round4date2" class="date">round4date</span></div>
+			<ul class="matchup" style="padding-top: 345px;">
+				<li id="reg2g13w" class="team team-top" onClick="b('reg2g13w', 'reg2winner');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg2g14w" class="team team-bottom" onClick="b('reg2g14w', 'reg2winner');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<hr>
+			<hr>
+			<ul class="matchup" style="padding-top: 505px;">
+				<li id="reg4g13w" class="team team-top" onClick="b('reg4g13w', 'reg4winner');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg4g14w" class="team team-bottom" onClick="b('reg4g14w', 'reg4winner');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+		</div>	<!-- END ROUND FOUR -->
+
+		<div class="round round-three">
+			<div class="round-details">Round 3<br/><span id="round3date2" class="date">round3date</span></div>
+			<ul class="matchup" style="padding-top: 185px;">
+				<li id="reg2g9w" class="team team-top" onClick="b('reg2g9w', 'reg2g13w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg2g10w" class="team team-bottom" onClick="b('reg2g10w', 'reg2g13w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg2g11w" class="team team-top" onClick="b('reg2g11w', 'reg2g14w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg2g12w" class="team team-bottom" onClick="b('reg2g12w', 'reg2g14w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<hr>
+			<hr>
+			<ul class="matchup" style="padding-top: 185px;">
+				<li id="reg4g9w" class="team team-top" onClick="b('reg4g9w', 'reg4g13w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg4g10w" class="team team-bottom" onClick="b('reg4g10w', 'reg4g13w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg4g11w" class="team team-top" onClick="b('reg4g11w', 'reg4g14w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg4g12w" class="team team-bottom" onClick="b('reg4g12w', 'reg4g14w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+		</div>	<!-- END ROUND THREE -->
+
+		<div class="round round-two">
+			<div class="round-details">Round 2<br/><span id="round2date2" class="date">round2date</span></div>
+			<ul class="matchup" style="padding-top: 105px;">
+				<li id="reg2g1w" class="team team-top" onClick="b('reg2g1w', 'reg2g9w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg2g2w" class="team team-bottom" onClick="b('reg2g2w', 'reg2g9w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg2g3w" class="team team-top" onClick="b('reg2g3w', 'reg2g10w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg2g4w" class="team team-bottom" onClick="b('reg2g4w', 'reg2g10w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg2g5w" class="team team-top" onClick="b('reg2g5w', 'reg2g11w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg2g6w" class="team team-bottom" onClick="b('reg2g6w', 'reg2g11w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg2g7w" class="team team-top" onClick="b('reg2g7w', 'reg2g12w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg2g8w" class="team team-bottom" onClick="b('reg2g8w', 'reg2g12w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<hr>
+			<hr>
+			<ul class="matchup" style="padding-top: 105px;">
+				<li id="reg4g1w" class="team team-top" onClick="b('reg4g1w', 'reg4g9w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg4g2w" class="team team-bottom" onClick="b('reg4g2w', 'reg4g9w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg4g3w" class="team team-top" onClick="b('reg4g3w', 'reg4g10w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg4g4w" class="team team-bottom" onClick="b('reg4g4w', 'reg4g10w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg4g5w" class="team team-top" onClick="b('reg4g5w', 'reg4g11w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg4g6w" class="team team-bottom" onClick="b('reg4g6w', 'reg4g11w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg4g7w" class="team team-top" onClick="b('reg4g7w', 'reg4g12w');" style="cursor: pointer; cursor: hand;"></li>
+				<li id="reg4g8w" class="team team-bottom" onClick="b('reg4g8w', 'reg4g12w');" style="cursor: pointer; cursor: hand;"></li>
+			</ul>
+		</div>	<!-- END ROUND TWO -->
+ 		<div class="round round-one current">
+			<div class="round-details">Round 1<br/><span id="round1date2" class="date">round1date</span></div>
+			<h1 id="region2" style="text-align: center;">{{regions.region2}}</h1>
+			<ul class="matchup">
+				<li id="reg2t1" class="team team-top" onClick="b('reg2t1', 'reg2g1w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t1.seed}} {{teams.reg2_t1.name}}</li>
+				<li id="reg2t16" class="team team-bottom" onClick="b('reg2t16', 'reg2g1w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t16.seed}} {{teams.reg2_t16.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg2t8" class="team team-top" onClick="b('reg2t8', 'reg2g2w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t8.seed}} {{teams.reg2_t8.name}}</li>
+				<li id="reg2t9" class="team team-bottom" onClick="b('reg2t9', 'reg2g2w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t9.seed}} {{teams.reg2_t9.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg2t5" class="team team-top" onClick="b('reg2t5', 'reg2g3w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t5.seed}} {{teams.reg2_t5.name}}</li>
+				<li id="reg2t12" class="team team-bottom" onClick="b('reg2t12', 'reg2g3w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t12.seed}} {{teams.reg2_t12.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg2t4" class="team team-top" onClick="b('reg2t4', 'reg2g4w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t4.seed}} {{teams.reg2_t4.name}}</li>
+				<li id="reg2t13" class="team team-bottom" onClick="b('reg2t13', 'reg2g4w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t13.seed}} {{teams.reg2_t13.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg2t11" class="team team-bottom" onClick="b('reg2t11', 'reg2g5w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t11.seed}} {{teams.reg2_t11.name}}</li>
+				<li id="reg2t6" class="team team-top" onClick="b('reg2t6', 'reg2g5w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t6.seed}} {{teams.reg2_t6.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg2t14" class="team team-bottom" onClick="b('reg2t14', 'reg2g6w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t14.seed}} {{teams.reg2_t14.name}}</li>
+				<li id="reg2t3" class="team team-top" onClick="b('reg2t3', 'reg2g6w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t3.seed}} {{teams.reg2_t3.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg2t10" class="team team-bottom" onClick="b('reg2t10', 'reg2g7w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t10.seed}} {{teams.reg2_t10.name}}</li>
+				<li id="reg2t7" class="team team-top" onClick="b('reg2t7', 'reg2g7w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t7.seed}} {{teams.reg2_t7.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg2t15" class="team team-bottom" onClick="b('reg2t15', 'reg2g8w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t15.seed}} {{teams.reg2_t15.name}}</li>
+				<li id="reg2t2" class="team team-top" onClick="b('reg2t2', 'reg2g8w');" style="cursor: pointer; cursor: hand;">{{teams.reg2_t2.seed}} {{teams.reg2_t2.name}}</li>
+			</ul>
+			<hr>
+			<hr>
+			<h1 id="region4" style="text-align: center;">{{regions.region4}}</h1>
+			<ul class="matchup">
+				<li id="reg4t1" class="team team-top" onClick="b('reg4t1', 'reg4g1w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t1.seed}} {{teams.reg4_t1.name}}</li>
+				<li id="reg4t16" class="team team-bottom" onClick="b('reg4t16', 'reg4g1w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t16.seed}} {{teams.reg4_t16.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg4t8" class="team team-top" onClick="b('reg4t8', 'reg4g2w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t8.seed}} {{teams.reg4_t8.name}}</li>
+				<li id="reg4t9" class="team team-bottom" onClick="b('reg4t9', 'reg4g2w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t9.seed}} {{teams.reg4_t9.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg4t5" class="team team-top" onClick="b('reg4t5', 'reg4g3w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t5.seed}} {{teams.reg4_t5.name}}</li>
+				<li id="reg4t12" class="team team-bottom" onClick="b('reg4t12', 'reg4g3w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t12.seed}} {{teams.reg4_t12.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg4t4" class="team team-top" onClick="b('reg4t4', 'reg4g4w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t4.seed}} {{teams.reg4_t4.name}}</li>
+				<li id="reg4t13" class="team team-bottom" onClick="b('reg4t13', 'reg4g4w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t13.seed}} {{teams.reg4_t13.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg4t11" class="team team-bottom" onClick="b('reg4t11', 'reg4g5w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t11.seed}} {{teams.reg4_t11.name}}</li>
+				<li id="reg4t6" class="team team-top" onClick="b('reg4t6', 'reg4g5w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t6.seed}} {{teams.reg4_t6.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg4t14" class="team team-bottom" onClick="b('reg4t14', 'reg4g6w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t14.seed}} {{teams.reg4_t14.name}}</li>
+				<li id="reg4t3" class="team team-top" onClick="b('reg4t3', 'reg4g6w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t3.seed}} {{teams.reg4_t3.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg4t10" class="team team-bottom" onClick="b('reg4t10', 'reg4g7w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t10.seed}} {{teams.reg4_t10.name}}</li>
+				<li id="reg4t7" class="team team-top" onClick="b('reg4t7', 'reg4g7w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t7.seed}} {{teams.reg4_t7.name}}</li>
+			</ul>
+			<ul class="matchup">
+				<li id="reg4t15" class="team team-bottom" onClick="b('reg4t15', 'reg4g8w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t15.seed}} {{teams.reg4_t15.name}}</li>
+				<li id="reg4t2" class="team team-top" onClick="b('reg4t2', 'reg4g8w');" style="cursor: pointer; cursor: hand;">{{teams.reg4_t2.seed}} {{teams.reg4_t2.name}}</li>
+			</ul>
+		</div>	<!-- END ROUND ONE -->
+	</div>
+	</div>
+	<br>
+	<div>
+		<button type="submit" class="buttonwrapper" onclick="mySaveFunction()">Save</button>
+	</div>
+	{{> footer}}
+	</section>
+	<section class="share">
+	</section>
+	<script>
+		function b(value, game) {
+			var c = document.getElementById(value).innerHTML;
+			document.getElementById(game).innerHTML = c;
+		}
+		function mySaveFunction() {
+
+		}
+	</script>
+
+</body>
+</html>
