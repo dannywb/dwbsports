@@ -20,6 +20,8 @@ router.post('/register',
   userController.register
 );
 
+router.post('/login', userController.userLogin);
+
 router.get('/users/me',
   userController.authenticate,
   userController.privateReq

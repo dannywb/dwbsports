@@ -77,3 +77,20 @@ exports.authenticate = (req, res, next) => {
     res.status(401).send();
   });
 };
+
+exports.userLogin = (req, res) => {
+  var body = _.pick(req.body, ['email', 'password']);
+
+  User.findByCredentials(body.email, body.password).then((user) => {
+    return user.generateAuthToken().then((token) => {
+      if (new Date() > new Date('03/14/2019 12:00')) {
+        var message = 'Your time has passed to create new entries. But tour the site, check on your entries and how you stack up against the other \"family\" members.';
+      } else {
+        var message = 'You still have time to create new entries. Just remember, they are $5 per entry. But, I know the perfect entry has not yet been submitted because I have not submitted mine. Good Luck!';
+      }
+      res.header('x-auth', token).render('welcomeback', {title: 'Welcome Back', name: user.name, message: message});
+    });
+  }).catch((e) => {
+    res.status(400).send();
+  });
+};
